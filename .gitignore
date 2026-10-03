@@ -1,0 +1,8 @@
+.idea/
+__pycache__/
+*.pyc
+uploads/
+backend/uploads/
+frontend/__pycache__/
+*.db
+.env
