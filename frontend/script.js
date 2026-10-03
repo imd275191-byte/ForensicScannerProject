@@ -466,7 +466,7 @@ if (analyzeBtn) {
 
                 const response =
                     await fetch(
-                        "http://127.0.0.1:5000/api/analyze",
+                        "https://forensicscannerproject.onrender.com/api/analyze",
                         {
                             method: "POST",
                             body: formData
@@ -746,7 +746,7 @@ async function loadAnalysisHistory() {
 
         const response =
             await fetch(
-                "http://127.0.0.1:5000/api/history"
+                "https://forensicscannerproject.onrender.com/api/history"
             );
 
 
